@@ -30,6 +30,8 @@ hero-title {
 .header {
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header,
@@ -65,6 +67,7 @@ a,
 
 .logo {
     font-size: 24px;
+    color: #f9faf9;
 }
 
 .hero-right {
@@ -128,7 +131,7 @@ img {
 
 .hero-title {
     font-size: 48px;
-    color: F9FAF8;
+    color: #F9FAF8;
     font-weight: 900;
 }
 
@@ -141,7 +144,7 @@ img {
 button,
 .subscription-info {
     background-color: #3882F6;
-    color: #FFFFFF;
+    color: #f9faf9;
 }
 
 button {
@@ -151,7 +154,7 @@ button {
 }
 
 .subscription-sign-up {
-    border: #FFFFFF solid;
+    border: #f9faf9 solid;
 }
 
 .subscription-info {
