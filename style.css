@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,7 +45,7 @@ ul {
     padding: 0px;
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
 
 a {
@@ -141,6 +141,7 @@ img {
 button,
 .subscription-info {
     background-color: #3882F6;
+    color: #FFFFFF;
 }
 
 button {
