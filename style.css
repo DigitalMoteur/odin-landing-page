@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.hero,
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attribution {
+    font-weight: 900;
+    color: #1F2937
+}
+
+hero-title {
+    font-size: 36px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header,
+.hero-body,
+.testimonial-body,
+.attribution,
+.subscription-info {
+    width: 800px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+.hero-body,
+.logo,
+.footer {
+    color: #e5e7eb;
+}
+
+.hero-body {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-right {
+    background-color: e5e7eb;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-cards {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937
+}
+
+.attribution {
+    display: flex;
+    justify-content: end;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: F9FAF8;
+    font-weight: 900;
+}
+
+.gallery-title,
+.attribution {
+    font-weight: 900;
+    color: #1F2937
+}
+
+button,
+.subscription-info {
+    background-color: #3882F6;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.subscription-sign-up {
+    border: #FFFFFF solid;
+}
+
+.subscription-info {
+    border-radius: 8px;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
